@@ -1,0 +1,63 @@
+/* Custom CSS untuk aplikasi */
+.news-content {
+    line-height: 1.8;
+    font-size: 1.1rem;
+}
+
+.news-content img {
+    max-width: 100%;
+    height: auto;
+    margin: 1rem 0;
+    border-radius: 5px;
+}
+
+/* Style untuk tabel */
+.table th {
+    white-space: nowrap;
+}
+
+/* Style untuk gambar avatar */
+.img-circle {
+    border-radius: 50%;
+}
+
+/* Style untuk badge status */
+.badge-warning {
+    background-color: #ffc107;
+    color: #212529;
+}
+
+/* Style untuk form */
+.custom-file-label::after {
+    content: "Pilih";
+}
+
+/* Style untuk footer */
+.main-footer {
+    background-color: #f4f6f9;
+    padding: 1rem;
+    border-top: 1px solid #dee2e6;
+}
+
+/* Style untuk preloader */
+.preloader {
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+}
+
+/* Style untuk konten berita */
+.lead {
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: #6c757d;
+}
+
+/* Style untuk tombol sosial media */
+.social-auth-links .btn {
+    margin-bottom: 10px;
+}
